@@ -1,2 +1,2 @@
-Time Domain Wave Equation Solver
-================================
+# Time domain wave equation solver
+
