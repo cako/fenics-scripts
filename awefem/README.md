@@ -8,4 +8,5 @@ The script [`awefem.py`](awefem.py) solves the constant velocity scalar wave equ
 Square
 ------
 Unit square mesh with a Ricker wavelet in the center.
+
 ![Time evolution of the wave equation](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/circle/circle.gif)
