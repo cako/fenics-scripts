@@ -5,7 +5,7 @@ from __future__ import print_function, division
 from dolfin import *
 from mshr import Circle, generate_mesh
 import numpy as np
-import os, sys, time
+import sys, time
 
 # Set log level
 set_log_active(False)
