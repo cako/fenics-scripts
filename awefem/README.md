@@ -19,4 +19,11 @@ Wireframe | 2D | 3D
 ----------|----|----
 ![Wireframe of domain](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/dolfin/dolfin_wire.png)|![Time evolution of the wave equation 2D](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/dolfin/dolfin_flat.gif)|![Time evolution of the wave equation in 3D](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/dolfin/dolfin.gif)
 
+### Square
+The unit square with a 100x100 mesh. Source time function is a 40Hz Ricker wavelet in the center of the square.
+
+Wireframe | 2D | 3D
+----------|----|----
+![Wireframe of domain](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/square/square_wire.png)|![Time evolution of the wave equation 2D](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/square/square_flat.gif)|![Time evolution of the wave equation in 3D](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/square/square.gif)
+
 
