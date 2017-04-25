@@ -96,14 +96,14 @@ if __name__ == "__main__":
     print('Computing wavefields over dolfin mesh')
     mesh = Mesh("../meshes/dolfin_fine.xml.gz")
     u = awefem(mesh, t, source_loc = Point(0.8, 0.8),
-            filename='dolfin/dolfin.pvd')
+            filename='dolfin/data/dolfin.pvd')
 
     print('Computing wavefields over unit square')
     mesh = UnitSquareMesh(100, 100)
-    u = awefem(mesh, t, filename='square/square.pvd')
+    u = awefem(mesh, t, filename='square/data/square.pvd')
 
     print('Computing wavefields over unit circle')
     domain = Circle(Point(0., 0.), 1)
     mesh = generate_mesh(domain, 50)
     u = awefem(mesh, t, source_time_function = sine_source,
-               filename='circle/circle.pvd')
+               filename='circle/data/circle.pvd')
