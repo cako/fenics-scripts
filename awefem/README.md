@@ -11,7 +11,7 @@ The unit disk is discretized using a resolution of 50 elements. Source time func
 
 Wireframe | 2D | 3D
 ----------|----|----
-![Time evolution of the wave equation](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/circle/circle.gif)|![Time evolution of the wave equation](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/circle/circle_flat.gif)|![Time evolution of the wave equation](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/circle/circle_wire.png)
+![Wireframe of domain](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/circle/circle_wire.png)|![Time evolution of the wave equation 2D](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/circle/circle_flat.gif)|![Time evolution of the wave equation in 3D](https://raw.githubusercontent.com/cako/fenics-scripts/master/awefem/circle/circle.gif)
 
 
 
